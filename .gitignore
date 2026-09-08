@@ -3,3 +3,8 @@ domainbed/facebook.py
 
 domainbed/data/*
 train_output/*
+# OpenResearch local artifacts
+.openresearch/runs/
+artifacts/
+data/
+datasets/
