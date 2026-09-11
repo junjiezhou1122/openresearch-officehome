@@ -21,6 +21,7 @@ PY="$FROZEN_VENV/bin/python"
 
 export PATH="$FROZEN_VENV/bin:$PATH"
 export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
+export HF_ENDPOINT="${HF_ENDPOINT:-https://hf-mirror.com}"
 export PYTHONHASHSEED=0
 
 # --- dataset cache with identity check ---
